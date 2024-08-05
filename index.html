@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/LOGO.jpg" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>United Cart - Catalog</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo" onclick="location.reload();">
+                <!-- <i class='bx bxs-watch nav__logo-icon'></i>
+                <i class='bx bxs-box nav__logo-icon'></i>
+                <i class='bx bxs-package nav__logo-icon'></i> -->
+                <!-- <i class='bx bxs-store nav__logo-icon'></i> -->
+                <!-- <i class='bx bxs-shopping-bag nav__logo-icon'></i>
+                <i class='bx bxs-clipboard nav__logo-icon'></i> -->
+                <img src="assets/img/LOGO.png" alt="United Cart Logo" class="nav__logo-icon"
+                    style="width: 100px; height: 100px;">
+                UNITED CART
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#featured" class="nav__link">Featured</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#products" class="nav__link">Products</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#new" class="nav__link">New</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+                <!-- <div class="nav__shop" id="cart-shop">
+                        <i class='bx bx-shopping-bag' ></i>
+                    </div> -->
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="home__img-bg">
+                    <img src="assets/img/Landing-removebg-preview.png" alt="" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                        Facebook
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                        Twitter
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                        Instagram
+                    </a>
+                </div>
+
+                <div class="home__data">
+                    <h1 class="home__title">United Digital Prints <br>Catalog</h1>
+                    <p class="home__description">
+                        Explore our extensive range of high-quality signage solutions, banners, hoardings, and more. Our
+                        products are designed to meet your advertising needs with durability and style.
+                    </p>
+                    <span class="home__price">Explore Categories</span>
+
+                    <div class="home__btns">
+                        <a href="#" class="button button--gray button--small">
+                            Discover
+                        </a>
+
+                        <a href="#products" class="button home__button">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== FEATURED ====================-->
+        <section class="featured section container" id="featured">
+            <h2 class="section__title">
+                Featured Products
+            </h2>
+
+            <div class="featured__container grid">
+                <article class="featured__card">
+                    <span class="featured__tag">Best Seller</span>
+                    <img src="assets/img/Flex Stainless Steel Foldable Sandwich Board.png"
+                        alt="Flex Stainless Steel Foldable Sandwich Board" class="featured__img">
+                    <div class="featured__data">
+                        <h3 class="featured__title">Flex Stainless Steel Foldable Sandwich Board</h3>
+                        <span class="featured__price">₹400 - ₹500 / Sq.ft</span>
+                    </div>
+                    <button class="button new__button">View More Products</button>
+                </article>
+
+                <article class="featured__card">
+                    <span class="featured__tag">Popular</span>
+                    <img src="assets/img/Acp.png" alt="ACP Pylon Sign Board For Advertising" class="featured__img">
+                    <div class="featured__data">
+                        <h3 class="featured__title">ACP Pylon Sign Board For Advertising</h3>
+                        <span class="featured__price">₹250 - ₹300 / Sq.ft</span>
+                    </div>
+                </article>
+
+                <article class="featured__card">
+                    <span class="featured__tag">New Arrival</span>
+                    <img src="assets/img/pvc_billboard.png" alt="PVC Billboard Sign Board For Outdoor Advertising"
+                        class="featured__img">
+                    <div class="featured__data">
+                        <h3 class="featured__title">PVC Billboard Sign Board For Outdoor Advertising</h3>
+                        <span class="featured__price">₹50 - ₹80 / Sq.ft</span>
+                    </div>
+                </article>
+                <article class="featured__card">
+                    <span class="featured__tag">Best Seller</span>
+                    <img src="assets/img/LED_SignBoard.png" alt="Flex Stainless Steel Foldable Sandwich Board"
+                        class="featured__img">
+                    <div class="featured__data">
+                        <h3 class="featured__title">
+                            Single Phase Multicolor Acrylic LED Signboards Material : Acrylic</h3>
+                        <span class="featured__price">₹ 600 - ₹ 700 / Sq.ft</span>
+                    </div>
+                </article>
+
+                <article class="featured__card">
+                    <span class="featured__tag">Popular</span>
+                    <img src="assets/img/Acp.png" alt="ACP Pylon Sign Board For Advertising" class="featured__img">
+                    <div class="featured__data">
+                        <h3 class="featured__title">ACP Pylon Sign Board For Advertising</h3>
+                        <span class="featured__price">₹250 - ₹300 / Sq.ft</span>
+                    </div>
+                </article>
+
+                <article class="featured__card">
+                    <span class="featured__tag">New Arrival</span>
+                    <img src="assets/img/pvc_billboard.png" alt="PVC Billboard Sign Board For Outdoor Advertising"
+                        class="featured__img">
+                    <div class="featured__data">
+                        <h3 class="featured__title">PVC Billboard Sign Board For Outdoor Advertising</h3>
+                        <span class="featured__price">₹50 - ₹80 / Sq.ft</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!--==================== PRODUCTS ====================-->
+        <section class="products section container" id="products">
+            <h2 class="section__title">
+                Products
+            </h2>
+
+            <div class="products__container grid">
+                <article class="products__card">
+                    <img src="assets/img/MR & MRS Gold.jpg" alt="" class="products__img">
+
+                    <h3 class="products__title">Spirit rose</h3>
+                    <span class="products__price">₹1500</span>
+
+                    <button class="products__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/img/MR & MRS Rose Gold.jpg" alt="" class="products__img">
+
+                    <h3 class="products__title">Khaki pilot</h3>
+                    <span class="products__price">₹1350</span>
+
+                    <button class="products__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/img/product3.png" alt="" class="products__img">
+
+                    <h3 class="products__title">Jubilee black</h3>
+                    <span class="products__price">₹870</span>
+
+                    <button class="products__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/img/product4.png" alt="" class="products__img">
+
+                    <h3 class="products__title">Fosil me3</h3>
+                    <span class="products__price">₹650</span>
+
+                    <button class="products__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+
+                <article class="products__card">
+                    <img src="assets/img/product5.png" alt="" class="products__img">
+
+                    <h3 class="products__title">Duchen</h3>
+                    <span class="products__price">₹950</span>
+
+                    <button class="products__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+            </div>
+        </section>
+
+        <!--==================== NEW ====================-->
+        <section class="new section container" id="new">
+            <h2 class="section__title">
+                New Arrivals
+            </h2>
+
+            <div class="new__container">
+                <div class="swiper new-swiper">
+                    <div class="swiper-wrapper">
+                        <article class="new__card swiper-slide">
+                            <span class="new__tag">New</span>
+
+                            <img src="assets/img/new1.png" alt="" class="new__img">
+
+                            <div class="new__data">
+                                <h3 class="new__title">Longines rose</h3>
+                                <span class="new__price">₹980</span>
+                            </div>
+
+                            <button class="button new__button">ADD TO CART</button>
+                        </article>
+
+                        <article class="new__card swiper-slide">
+                            <span class="new__tag">New</span>
+
+                            <img src="assets/img/new2.png" alt="" class="new__img">
+
+                            <div class="new__data">
+                                <h3 class="new__title">Jazzmaster</h3>
+                                <span class="new__price">₹1150</span>
+                            </div>
+
+                            <button class="button new__button">ADD TO CART</button>
+                        </article>
+
+                        <article class="new__card swiper-slide">
+                            <span class="new__tag">New</span>
+
+                            <img src="assets/img/new3.png" alt="" class="new__img">
+
+                            <div class="new__data">
+                                <h3 class="new__title">Dreyfuss gold</h3>
+                                <span class="new__price">₹750</span>
+                            </div>
+
+                            <button class="button new__button">ADD TO CART</button>
+                        </article>
+
+                        <article class="new__card swiper-slide">
+                            <span class="new__tag">New</span>
+
+                            <img src="assets/img/new4.png" alt="" class="new__img">
+
+                            <div class="new__data">
+                                <h3 class="new__title">Portuguese rose</h3>
+                                <span class="new__price">₹1590</span>
+                            </div>
+
+                            <button class="button new__button">ADD TO CART</button>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <h3 class="footer__title">Our Information</h3>
+
+                <ul class="footer__list">
+                    <li>Shop No 3-5-8710pp, OLD MLA Quarters</li>
+                    <li>Hyderguda-Basheer Bagh, Hyderabad - 500029</li>
+                    <li>Telangana, India</li>
+                    <li>+91-9948168347</li>
+                    <li>uniteddigitalprint@gmail.com</li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">About Us</h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">Support Center</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Customer Support</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Terms & Conditions</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Products</h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">Sign Boards</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Banners</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Hoardings</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">LED Sign Boards</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Magnetic Signs</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Brass Alphabets</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Social</h3>
+
+                <ul class="footer__social">
+                    <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+
+                    <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-twitter'></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+    </a>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
